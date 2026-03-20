@@ -1,0 +1,5 @@
+services:
+  cocorico:
+    image: anssi/fcsc2025-crypto-cocorico:latest
+    ports:
+      - "4000:4000"
