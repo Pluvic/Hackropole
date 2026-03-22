@@ -19,6 +19,3 @@ Le challenge peut être retrouvé dans le fichier `carotte-radis-tomate.py`. Le 
 Pour résoudre ce challenge, nous allons utiliser les résultats des opérations de modulo pour trouver la clé de chiffrement. Pour se faire, nous allons utiliser le théorème des restes chinois, qui nous permet de résoudre un système de congruences.
 
 Le fichier `solve.py` contient le code pour résoudre ce système de congruences.
-
-## Flag
-FCSC{2c4c4b3be7d86e1642ce6a8bf1bd75f33b9736e5943f51a49fb9327e248c3b6a}

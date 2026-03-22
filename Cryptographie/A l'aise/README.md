@@ -26,7 +26,3 @@ Le flag est le nom de la ville mentionnée dans ce message.
 La description parle d'elle même, pour retrouver le flag il s'agit d'appliquer le chiffrement de Vigenère sur ce chiffre ci dessus en utilisant la clé `FCSC`. Cela peut être réalisé de plusieurs manière: 
 - Soit en utilisant directement un outil en ligne comme https://www.dcode.fr/chiffre-vigenere
 - Soit en réalisant un script en python (ou autre langage)
-
-## Flag
-
-La ville mentionnée dans le message est `Nantes`
