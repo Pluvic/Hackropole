@@ -1,4 +1,4 @@
-# Analyse mémoire - Pour Commencer 1
+# Analyse mémoire - Pour Commencer 2
 
 ## Spécification
 
@@ -20,17 +20,12 @@ Le flag est au format FCSC{<nom du logiciel>:<nom du document>} où :
 - <nom du logiciel> est le nom de l'exécutable du logiciel d'édition et
 - <nom du document> est le nom du document en cours d'édition par l'utilisateur (sans le chemin du fichier).
 
+Par exemple : FCSC{calc.exe:Mes comptes 2025.txt}.
 
 ## Write-Up
 
-Pour analyser la capture mémoire, j'utilise l'outil Volatility (Version 3). Je commence par identifier le système d'exploitation de la machine cible en utilisant la commande `vol.py -f memory_dump.raw windows.info`. Cela me donne des informations sur la version de Windows utilisée. 
-
-### Retrouver le nom d'utilisateur de du pc
-`vol.py -f analyse-memoire.dmp windows.sessions`
-
-### Retrouver l'adresse IP de la machine
-`vol.py -f analyse-memoire.dmp windows.netscan`
+Pour retrouver les infos qu'il nous faut, il suffit d'utiliser volatility avec la commande `vol.py -f analyse-memoire.dmp windows.commandline`. Cette commande affiche les processus en cours d'exécution et leurs arguments de ligne de commande. En filtrant les résultats, on peut trouver le processus correspondant au logiciel d'édition et le nom du document.
 
 ## Flag
 
-FSCS{userfcsc-10:DESKTOP-JV996VQ:10.0.2.15}
+FCSC{soffice.exe:[SECRET-SF][TLP-RED]Plan FCSC 2026.odt}
