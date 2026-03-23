@@ -1,6 +1,5 @@
-# Challenges de Pwn
+# Challenges de Forensics
 
 | Nom du challenge | Difficulté | Année |
 |------------------|------------|-------|
-| yabof | Intro | 2025 |
-| yapuka | Intro | 2025 |
+| Analyse mémoire - Pour Commencer 1 | Intro | 2025 |

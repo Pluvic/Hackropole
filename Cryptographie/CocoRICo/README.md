@@ -17,7 +17,3 @@ On a un chiffrement AES en mode OFB de l'utilisateur toto avec son champ admin �
 Le chiffrement AES en mode OFB est un chiffrement par flot, ce qui signifie que le chiffrement de chaque bloc dépend du bloc précédent. Cependant, dans ce challenge, nous avons la possibilité de récupérer le keystream en XORant le token chiffré avec le plain text connu (le token d'un utilisateur choisi aléatoirement avec admin à false). Une fois que nous avons le keystream, nous pouvons construire un token chiffré pour l'utilisateur admin en XORant le plain text de l'utilisateur admin avec le keystream.
 
 La solution est présente dans le fichier `solve.py`
-
-## Flag
-
-FCSC{56e8ee27c9039b13a2b896da9a95a266cadd9a6e06e6d1f140f3df6cbed6332c}
