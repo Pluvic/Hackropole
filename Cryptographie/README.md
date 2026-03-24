@@ -2,6 +2,8 @@
 
 | Nom du challenge | Difficulté | Année |
 |------------------|------------|-------|
+| Crayon Cochon | Intro | 2019 |
+| Le Rat Conteur | Intro | 2020 |
 | Clair connu | Intro | 2021 |
 | La PIN | Intro | 2021 |
 | A l'aise | Intro | 2022 |
