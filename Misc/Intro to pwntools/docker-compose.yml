@@ -1,0 +1,5 @@
+services:
+  intro-to-pwntools:
+    image: anssi/fcsc2025-misc-intro-to-pwntools:latest
+    ports:
+      - "4000:4000"
