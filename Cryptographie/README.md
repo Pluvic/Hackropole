@@ -2,6 +2,7 @@
 
 | Nom du challenge | Difficulté | Année |
 |------------------|------------|-------|
+| Clair connu | Intro | 2021 |
 | A l'aise | Intro | 2022 |
 | AdveRSArial | Intro | 2024 |
 | Carotte Radis Tomate | Intro | 2025 |
