@@ -3,6 +3,7 @@
 | Nom du challenge | Difficulté | Année |
 |------------------|------------|-------|
 | Clair connu | Intro | 2021 |
+| La PIN | Intro | 2021 |
 | A l'aise | Intro | 2022 |
 | Hamac | Intro | 2022 |
 | AdveRSArial | Intro | 2024 |
